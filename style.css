@@ -1,0 +1,122 @@
+/* */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo_name {
+    position: absolute;
+    width: 64px;
+    height: 25.12px;
+    left: 29px;
+    top: 24px;
+}
+
+.menu {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 212px;
+    top: 26px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.nav_itens {
+    position: absolute;
+    width: 250px;
+    height: 24px;
+    left: 27px;
+    top: 70px;
+    list-style-type: none;
+    flex-direction: column;
+    display: flex;
+}
+
+.nav_itens li a {
+    text-decoration: none;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #084236;
+}
+
+.nav_itens li a img {
+    margin-right: 20px;
+}
+
+.search {
+    margin-bottom: 20px;
+    background: #8ed7c6;
+    border-radius: 12px;
+    width: 80%;
+    padding: 5px;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+}
+
+.sidebar {
+    background: #18c29c;
+    width: 250px;
+    height: 768px;
+    transition: 0.1s linear all;
+}
+
+body {
+    background: #dce4e3;
+}
+
+.perfil {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    background-color: #8ed7c6;
+    width: 251px;
+    height: 60px;
+}
+
+.textos {
+    font-size: 15px;
+    color: #084236;
+    width: 98px;
+    height: 36px;
+}
+
+.vet1 {
+    width: 45px;
+    height: 45px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+.logout {
+    width: 24px;
+    height: 24px;
+    margin-left: 50px;
+    margin-top: 18px;
+}
+
+.eleanor {
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.veterinaria {
+    font-size: 12px;
+}
+
+.textos {
+    margin-left: 9px;
+}

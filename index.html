@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo_name hidden">
+            <img src="./assets/img/logo.png" alt="logo" />
+        </div>
+
+        <button class="menu">
+        <img src="./assets/img/menu.png" alt="menu" />
+       </button>
+
+        <div class="nav">
+            <ul class="nav_itens">
+                <li class="search">
+                    <a href="">
+                        <img src="./assets/img/search.png" alt="search" />
+                        <input class="input hidden" type="text" placeholder="Buscar..." />
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <img src="./assets/img/grid.png" alt="dash" />
+                        <span class="links_names hidden">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <img src="./assets/img/pet.png" alt="pets" />
+                        <span class="links_names hidden">Pets</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <img src="./assets/img/user.png" alt="clientes" />
+                        <span class="links_names hidden">Clientes</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <img src="./assets/img/user-md.png" alt="vets" />
+                        <span class="links_names hidden">Vets</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="">
+                        <img src="./assets/img/settings.png" alt="settings" />
+                        <span class="links_names hidden">Ajustes</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="perfil">
+                <img class="vet1 hidden" src="./assets/img/avatar.png" alt="img1" />
+                <div class="textos hidden">
+                    <p class="eleanor">Eleanor Pena</p>
+                    <p class="veterinaria">Veterinária</p>
+                </div>
+                <img class="logout" src="./assets/img/log-out.png" alt="img2" />
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
